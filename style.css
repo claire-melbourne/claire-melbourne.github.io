@@ -1,5 +1,5 @@
 html {
-  color: rgb(65, 68, 221);
+  color: black;
   font-family: 'Karla', sans-serif;
   font-size: 18px;
 }
@@ -18,7 +18,6 @@ header {
 nav {
   display: flex;
   justify-content: flex-end;
-  color: black;
   width: 100%;
   align-items: center;
   position: relative;
@@ -28,7 +27,7 @@ nav {
   padding: 10px;
 }
 #email {
-  background-color: khaki;
+  background-color: rgb(255, 243, 72);
   border-radius: 5px;
 }
 .bold {
@@ -36,9 +35,14 @@ nav {
   padding-right: 8px;
 }
 .description {
-  color: rgb(84, 86, 219);
   font-style: oblique;
   font-size:18px;
+}
+.titles {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-bottom: 5px;
 }
 #name {
   font-family: 'Permanent Marker', cursive;
@@ -71,32 +75,23 @@ body {
 h2 {
   font-family: 'Permanent Marker', cursive;
   font-size: 60px;
+  margin: 20px 0 20px 0;
 }
 h4 {
   margin: 0 0 5px 0;
-  color: rgb(65, 68, 221);
   font-size: 25px;
 }
 h5 {
   margin: 0 0 10px 0;
-  color: rgb(243, 74, 32);
 }
-/* .text {
-  display: grid;
-  grid-template-columns: 20% 80%;
-  margin-top: 20px;
-} */
 
 .tech {
   list-style-type: none;
   padding-top: 20px;
   padding-bottom: 20px;
-  color: rgb(65, 68, 221);;
   background-color: white;
   border: rgb(6, 250, 250) solid;
   border-radius: 5px;
-  /* display: flex;
-  justify-content: flex-end; */
 }
 .teal {
   background:   rgb(6, 250, 250);
@@ -127,23 +122,19 @@ h5 {
   padding: 20px;
   padding-left: 30px;
   background-color: white;
-  color: rgb(65, 68, 221);
 }
 .projects li {
-  color:black;
   list-style-type: square;
 }
 
 #no-bullet li {
   list-style-type: none;
   margin: 10px;
-  color: rgb(65, 68, 221);
   display: flex;
   justify-content: space-between;
 }
 #square li {
   list-style-type: square;
-
 }
 .sticky {
   position: fixed;
