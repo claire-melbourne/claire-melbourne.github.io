@@ -21,14 +21,32 @@ nav {
   width: 100%;
   align-items: center;
   position: relative;
-  right: 0px;
+  right: 15px;
+}
+#email:hover {
+  background-color: white;
+  border: rgb(255, 243, 72) solid 3px;
+  padding: 7px;
+}
+#linkedin:hover {
+  border:  rgb(243, 74, 32) solid 3px;
+  border-radius: 5px;
+  margin: 7px;
+}
+#github:hover{
+  border:  rgb(6, 250, 250) solid 3px;
+  border-radius: 5px;
+  margin: 7px;
+  margin-bottom: 6.5px;
 }
 .item {
-  padding: 10px;
+  margin: 10px;
+  padding: 5px 5px 5px 5px;
 }
 #email {
   background-color: rgb(255, 243, 72);
   border-radius: 5px;
+  padding: 10px;
 }
 .bold {
   font-weight: bold;
@@ -45,7 +63,7 @@ nav {
   padding-bottom: 5px;
 }
 #name {
-  font-family: 'Permanent Marker', cursive;
+  font-family: 'Permanent Marker', Sans-Serif;
   font-size: 90px;
   padding: 0;
 }
