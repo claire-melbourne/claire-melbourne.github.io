@@ -65,7 +65,7 @@ nav {
 #name {
   font-family: 'Permanent Marker', Sans-Serif;
   font-size: 90px;
-  padding: 5px;
+  padding-left: 12px;
 }
 #headshot {
   border-radius: 5px;
