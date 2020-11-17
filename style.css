@@ -1,0 +1,88 @@
+html {
+  background-color: lavenderblush;
+  color: rgb(177, 79, 155);
+  font-family: 'Karla', sans-serif;
+}
+
+header {
+  background-color: lavenderblush;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  opacity: .8;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  color: black;
+  width: 100%;
+  align-items: center;
+  position: relative;
+  right: 50px;
+}
+.item {
+  padding: 10px;
+}
+#email {
+  background-color: khaki;
+  border-radius: 5px;
+}
+span {
+  font-weight: bold;
+}
+h1 {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 90px;
+  padding: 0;
+}
+#headshot {
+  border-radius: 5px;
+  width: 20%;
+  padding-right: 75px
+}
+#me {
+  border-radius: 5px;
+}
+body {
+  margin: 20px;
+
+}
+#container {
+  display: flex;
+  flex-direction: column;
+}
+h2 {
+  font-family: 'Permanent Marker', cursive;
+}
+.text {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  margin-top: 20px;
+}
+
+#tech {
+  list-style-type: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: rgb(99, 65, 65);;
+}
+
+#tech li {
+  margin: 10px;
+}
+
+@media (max-width: 1000px) {
+  header {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  h1 {
+    font-size: 60px;
+  }
+  #headshot {
+    width: 350px;
+  }
+}
