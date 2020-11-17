@@ -1,7 +1,7 @@
 html {
   color: black;
   font-family: 'Karla', sans-serif;
-  font-size: 18px;
+  font-size: 15px;
 }
 
 header {
@@ -65,7 +65,7 @@ nav {
 #name {
   font-family: 'Permanent Marker', Sans-Serif;
   font-size: 90px;
-  padding: 0;
+  padding: 5px;
 }
 #headshot {
   border-radius: 5px;
@@ -88,6 +88,7 @@ body {
   border-radius: 5px;
   padding: 20px;
   margin-top: 10px;
+  font-size: 15px;
 }
 
 h2 {
@@ -149,7 +150,7 @@ h5 {
   display: flex;
   justify-content: space-between;
 }
-#square li {
+.square li {
   list-style-type: square;
 }
 #red {
@@ -162,11 +163,25 @@ h5 {
     flex-direction: column;
     align-items: center;
   }
-  h1 {
-    font-size: 60px;
-    padding: 0;
+  #name {
+    font-size: 80px;
+    padding: 5px;
   }
   #headshot {
     width: 300px;
   }
+
+  @media (max-width: 600px) {
+    header {
+      flex-wrap: wrap;
+      flex-direction: column;
+      align-items: center;
+    }
+    #name {
+      font-size: 60px;
+      padding: 5px;
+    }
+    #headshot {
+      width: 200px;
+    }
 }
