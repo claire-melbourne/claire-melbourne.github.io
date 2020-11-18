@@ -65,7 +65,7 @@ nav {
 #name {
   font-family: 'Permanent Marker', Sans-Serif;
   font-size: 90px;
-  padding-left: 12px;
+  padding: 0;
 }
 #headshot {
   border-radius: 5px;
@@ -165,7 +165,7 @@ h5 {
   }
   #name {
     font-size: 80px;
-    padding: 5px;
+    padding: 0 0 0 20px;
   }
   #headshot {
     width: 300px;
@@ -180,7 +180,7 @@ h5 {
     }
     #name {
       font-size: 60px;
-      padding: 5px;
+      padding-left: 0 0 0 20px;
     }
     #headshot {
       width: 200px;
